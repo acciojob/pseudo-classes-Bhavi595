@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+*{
+	background-color:rgb(135, 206, 235);
+}
+
+.new>p:first-child{
+	background-color:black;
+	color:white
+}
+
+.new>p:nth-child(2){	
+	color:black;
+}
+
+.new>p:last-child{
+	background-color:red;
+	color:white
+}
+
+.listclass>li:nth-child(even){
+	background-color:gray;
+}
+
+.listclass>li:nth-child(odd){
+	background-color:white;
+}
+
+.listclass{
+	width:50%;
+	padding:10px;
+}
+.listclass>li:nth-child(3){
+	background-color:pink;
+}
+
+
