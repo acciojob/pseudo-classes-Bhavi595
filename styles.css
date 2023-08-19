@@ -11,6 +11,9 @@
 .new>p:nth-child(2){	
 	color:black;
 }
+.new>p:nth-child(3){	
+	color:black;
+}
 
 .new>p:last-child{
 	background-color:red;
